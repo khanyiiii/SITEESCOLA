@@ -1,13 +1,24 @@
 
-body {
-    background-color: #8F4747
+ *{
+    margin: 0;
+    padding: 0;
 
-     }
-     body {
-        background-color: #8F4747;
-        color: #D8D5D5;
-        }
-        header {
-            background-color: #8F4747;
-            color: #D8D5D5;
-            }
+}
+
+.cabeçalho {
+ background-color: #8F4747;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabeçalho-imagem{
+    width: 20%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
