@@ -1,16 +1,16 @@
-
- *{
+*{
     margin: 0;
     padding: 0;
 
 }
 
 .cabeçalho {
- background-color: #8F4747;
+    background-color: rgba(172, 65, 65, 0.808);
+    color:white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 75px 0;
 }
 
 .cabeçalho-imagem{
@@ -21,4 +21,23 @@
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient( rgb(148, 68, 68), rgb(148, 68, 68));
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.escola-div-conteudo{
+width: 35%;
+
+}
+.escola-titulo{
+    padding: 24px 0;
 }
