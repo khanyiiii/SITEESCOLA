@@ -6,16 +6,16 @@
 
 .cabeçalho {
     background-color: rgba(172, 65, 65, 0.808);
-    color:rgb(253, 253, 253);
+    color:rgb(201, 196, 196);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 0;
+    padding: 45px 0;
 }
 
 .cabeçalho-imagem{
-    width: 25%;
-    padding-left: 50px;
+    width: 50%;
+    padding-left: 30px;
 
 }
 
@@ -23,30 +23,30 @@
 .cabeçalho-lista-item{
     display: inline-block;
     margin: 0 67px;
-    font-size: 20px;
-
+    font-size: 35px;
+    color: rgb(232, 238, 238);
     
 }
 
 .cabeçalho-lisnta-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 45px;
-    
+    font-size: 25px;
+    color: rgb(156, 147, 147);
 }
 
 .cabeçalho-lissta-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 25px;
-    
+    font-size: 16px;
+    color: aliceblue;
 }
 .escola-imagem{
     width: 25%;
 }
 .escola{
     background-image: linear-gradient( rgb(148, 68, 68), rgb(148, 68, 68));
-    color:white;
+    color:rgb(197, 186, 186);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,11 +54,14 @@
 }
 
 .escola-div-conteudo{
-width: 70%;
+width: 600%;
+font-size: 20px;
+
 
 }
 .escola-titulo{
-    padding: 98px 0;
+    padding: 37px 78;
+    width: 70%;
 }
 
 
