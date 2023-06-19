@@ -3,6 +3,11 @@
     padding: 0;
 
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
 
 .cabeçalho {
     background-color: rgba(172, 65, 65, 0.808);
