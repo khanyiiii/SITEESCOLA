@@ -46,8 +46,13 @@ body{
     color: aliceblue;
 }
 .escola-imagem{
-    width: 25%;
+    width: 25%;    
 }
+
+.escola-icone{
+    width: 24px; ;
+}
+
 .escola{
     background-image: linear-gradient( rgb(148, 68, 68), rgb(148, 68, 68));
     color:rgb(197, 186, 186);
@@ -67,6 +72,7 @@ font-size: 20px;
     padding: 37px 78;
     width: 70%;
 }
+
 
 
 .estudante-imagem{
