@@ -46,12 +46,11 @@ body{
     color: aliceblue;
 }
 .escola-imagem{
-    width: 15%;    
+    width: 23%;    
 }
 
-
 .escola-icone{
-    width: 24px; 
+    width: 24px; ;
 }
 
 .escola{
@@ -60,11 +59,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 150px;
+    padding: 200px;
 }
 
 .escola-div-conteudo{
-width: 60%;
+width: 600%;
 font-size: 20px;
 
 
@@ -74,6 +73,11 @@ font-size: 20px;
     width: 70%;
 }
 
+.escola-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% ;
+
+}
 
 
 .estudante-imagem{
@@ -91,20 +95,22 @@ font-size: 20px;
 
 .estudante-título {
  text-align: center;
- padding: 50px 0
+ padding: 45px 0
 }
 
-.estudante-todos {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+.estudante-todos{
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   
+}
+
+.rodape {
+    background-color: rgb(36, 0, 0);
+
 }
 
 .rodape-imagem{
-    background-color: rgb(61, 15, 15);
-}
-
-.rodape-imagem{
-    height: 131px;
-    padding: 12px 0;
-    text-align: center;
+    height: 890px;
+    width: 908 px;
+    
 }
