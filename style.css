@@ -46,7 +46,7 @@ body{
     color: aliceblue;
 }
 .escola-imagem{
-    width: 25%;    
+    width: 23%;    
 }
 
 .escola-icone{
@@ -73,17 +73,33 @@ font-size: 20px;
     width: 70%;
 }
 
+.escola-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% ;
+
+}
 
 
 .estudante-imagem{
-    width: 229px ; 
+    width: 220px ; 
 
 }
 
 .estudante-icone{
-    width: 24px; ;
+    width: 24px;
 }
 
 .estudante-div{
     text-align: center;
+}
+
+.estudante-título {
+ text-align: center;
+ padding: 45px 0
+}
+
+.estudante-todos{
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   
 }
