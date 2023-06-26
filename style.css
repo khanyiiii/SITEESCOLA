@@ -49,6 +49,7 @@ body{
     width: 15%;    
 }
 
+
 .escola-icone{
     width: 24px; 
 }
@@ -93,3 +94,17 @@ font-size: 20px;
  padding: 50px 0
 }
 
+.estudante-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape-imagem{
+    background-color: rgb(61, 15, 15);
+}
+
+.rodape-imagem{
+    height: 131px;
+    padding: 12px 0;
+    text-align: center;
+}
