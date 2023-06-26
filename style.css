@@ -46,11 +46,11 @@ body{
     color: aliceblue;
 }
 .escola-imagem{
-    width: 23%;    
+    width: 15%;    
 }
 
 .escola-icone{
-    width: 24px; ;
+    width: 24px; 
 }
 
 .escola{
@@ -59,11 +59,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 150px;
 }
 
 .escola-div-conteudo{
-width: 600%;
+width: 60%;
 font-size: 20px;
 
 
@@ -73,11 +73,6 @@ font-size: 20px;
     width: 70%;
 }
 
-.escola-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% ;
-
-}
 
 
 .estudante-imagem{
@@ -95,11 +90,6 @@ font-size: 20px;
 
 .estudante-título {
  text-align: center;
- padding: 45px 0
+ padding: 50px 0
 }
 
-.estudante-todos{
-   display: grid;
-   grid-template-columns: 20% 20% 20% 20% 20%;
-   
-}
