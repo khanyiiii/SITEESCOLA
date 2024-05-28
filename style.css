@@ -1,116 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:wght@400;700&display=swap');
 
+:root {
+  --cor-de-fundo: #161618;
+  --verde: #6FFF57;
+  --branco: #FFFFFF;
+  --botao-ativo: #3A375E;
+  --botao-inativo: rgba(58, 55, 94, 0.5);
+  --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
-body{ 
-    font-family: 'Montserrat', sans-serif;
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco);
+  font-family: 'Chakra Petch', sans-serif;
 }
 
-.cabeçalho {
-    background-color: rgba(172, 65, 65, 0.808);
-    color:rgb(201, 196, 196);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 45px 0;
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.cabeçalho-imagem{
-    width: 50%;
-    padding-left: 30px;
-
+.titulo-principal {
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
 }
 
 
-.cabeçalho-lista-item{
-    display: inline-block;
-    margin: 0 67px;
-    font-size: 35px;
-    color: rgb(232, 238, 238);
+.titulo-principal span {
+  color: var(--verde);
+}
+
+.botao{
+  font-family: "Crakra Petch", sans-serif;
+  background-color: var(--botao-inativo);
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 4px solid var(--botao-ativo); 
+  border-left: 2px solid var(--botao-ativo); 
+  border-right: 2px solid var(--botao-ativo); 
+  border-top: none;
+  }
+
+  .botao:first-child {
+    border-radius: 40px 40px 0 0;
+  }
+
+  .botoes {
+    display: block;
+  }
+
+  .botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+    }
     
+  .abas-textos{
+     background-color: var(--texto-fundo);
+     padding: 40px;
+    border-radius: 0 0 40px 40px;
+  }  
+
+  .aba-conteudo.ativo{
+    display: block;
 }
 
-.cabeçalho-lisnta-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 25px;
-    color: rgb(156, 147, 147);
+.aba-conteudo{
+  display: none;
 }
 
-.cabeçalho-lissta-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 16px;
-    color: aliceblue;
-}
-.escola-imagem{
-    width: 23%;    
+.aba-conteudo-titulo-principal{
+  font-size: 28px;
+  text-align: center;
 }
 
-.escola-icone{
-    width: 24px; ;
+.aba-conteudo-titulo-secundario{
+  text-align: center;
+  color: var(--verde);
+  text-transform: uppercase;
 }
-
-.escola{
-    background-image: linear-gradient( rgb(148, 68, 68), rgb(148, 68, 68));
-    color:rgb(197, 186, 186);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 200px;
-}
-
-.escola-div-conteudo{
-width: 600%;
-font-size: 20px;
-
-
-}
-.escola-titulo{
-    padding: 37px 78;
-    width: 70%;
-}
-
-.escola-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% ;
-
-}
-
-
-.estudante-imagem{
-    width: 220px ; 
-
-}
-
-.estudante-icone{
-    width: 24px;
-}
-
-.estudante-div{
-    text-align: center;
-}
-
-.estudante-título {
- text-align: center;
- padding: 45px 0
-}
-
-.estudante-todos{
-   display: grid;
-   grid-template-columns: 20% 20% 20% 20% 20%;
-   
-}
-
-.rodape {
-    background-color: rgb(36, 0, 0);
-
-}
-
-.rodape-imagem{
-    height: 890px;
-    width: 908 px;
     
+.contador{
+  display:flex;
+  justify-content: center;
+}
+
+
+.contador-digito{
+  padding: 0 16px;
+  text-align: center;
+  min-width: 100px;
+}
+
+.contador-digito-numero{
+  font-size: 80px;
+  margin: 0;
+}
+
+.contador-digito-texto{
+  color: var(--verde);
+  font-size: 20px;
+  margin: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+    }
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+    }
 }
